@@ -1,0 +1,69 @@
+
+body{
+    background-image: url("https://c8.alamy.com/comp/PF3P27/desktop-source-code-and-technology-background-developer-or-programer-with-coding-and-programming-wallpaper-by-computer-language-and-source-code-com-PF3P27.jpg");
+    background-color: #cccccc;
+}
+section{
+    margin-top: 2.5%;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    
+    width: 300px;
+    height: 500px;
+    background-color: black;
+    border-radius: 26px;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.fondo{
+    margin-top: -55px;
+    width: 300px;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+}
+
+.perfil{
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: -27px;
+
+}
+.perfil img{
+    border-radius: 100px;
+    width: 40%;
+    
+}
+
+.info{
+    margin: 20px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+p{
+    margin: 10px 0 0 0;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    margin: 25%;
+    font-family: 'serif';
+}
+
+.redes img{
+    display: inline-block;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+

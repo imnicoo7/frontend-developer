@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+    
+        header{
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(57, 187, 76)
+        }
+        #platzi{
+        color: red;
+        }
+        .master{
+            color:blue
+        }
+        .container{
+            display: flex;
+            background-color: rgb(228, 209, 38);
+            justify-content: center;
+            height: 200px;
+            align-items: center;
+            flex-direction: column;
+        }
+        .container .items:nth-child(2n+2){
+            background-color: aqua;
+        }
+        .items{
+            width: 30px;
+            height: 30px;
+            
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <picture class="header-child">soy un logo</picture>
+        <nav class="header-child">soy un nav</nav>
+        
+    </header>
+    <div id="platzi" class="master">Platzi</div>
+
+    <div class="container"> 
+        <div class="items"> </div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+    </div>
+</body>
+</html>
